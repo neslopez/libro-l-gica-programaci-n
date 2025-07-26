@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lógica de Programación - El Libro</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+</head>
+<body>
+
+  <header>
+    <section class="hero">
+  <div class="hero-contenido">
+    <h1>Dominá la lógica de programación</h1>
+    <p>Aprendé a pensar como programador antes de escribir una sola línea de código.</p>
+   <!-- <a href="#formulario" class="boton-llamativo">Quiero más información</a> -->
+  </div>
+</section>
+  </header>
+
+  <main class="contenedor">
+    <section class="portada">
+      <img src="/imagen/Portada3D.png" alt="Portada del libro Lógica de Programación" class="portada-libro">
+    </section>
+
+    <section class="descripcion">
+      <p>Este libro está diseñado para ayudarte a comprender la lógica que hay detrás de cualquier lenguaje de programación. Ideal para estudiantes, docentes y autodidactas.</p>
+    </section>
+
+    <section class="beneficios">
+      <h2>¿Qué aprenderás con este libro?</h2>
+      <ul class="lista-beneficios li">
+        <li>Pensamiento lógico aplicado a programación</li>
+        <li>Resolución de problemas con pseudocódigo</li>
+        <li>Diagramas de flujo explicados paso a paso</li>
+        <li>Ejercicios prácticos y desafiantes</li>
+        <li>Preparación ideal para aprender cualquier lenguaje</li>
+      </ul>
+    </section>
+
+    <section class="cta">
+     <div class="botones-compra">
+  <a href="https://www.amazon.com/dp/TU-CODIGO" class="boton amazon" target="_blank">
+    <img src="/imagen/logoamazon.png" alt="Amazon" class="icono">
+    Comprar en Amazon "Proximamente"
+  </a>
+  <a href="https://articulo.mercadolibre.com.ar/MLA-2178547884-logica-de-programacion-desde-cero-ebook-pdf-_JM#polycard_client=search-nordic&position=36&search_layout=stack&type=item&tracking_id=e89b8910-9f3d-4290-9c75-efcff5b626f2&wid=MLA2178547884&sid=search" class="boton mercado" target="_blank">
+    <img src="/imagen/logomercadolibre.png" alt="Mercado Libre" class="icono">
+    Comprar en Mercado Libre
+  </a>
+</div>
+    </section>
+
+    <section class="formulario">
+       <h2>¿Querés estar informado sobre el lanzamiento del libro?</h2>
+  <p>Dejanos tus datos y te enviaremos todas las novedades por correo.</p>
+  
+  <form action="https://formspree.io/f/xvgqogzn" method="POST">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="text" placeholder="Tu nombre" required>
+    <input type="email" placeholder="Tu correo electrónico" required>
+    <button type="submit">Notificarme</button>
+  </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <p>© 2025 Ezequiel – Todos los derechos reservados</p>
+    </div>
+  </footer>
+  <script>
+  const form = document.querySelector("form");
+  
+  form.addEventListener("submit", function (e) {
+    // Esperar un segundo y limpiar los campos (después de que se envía)
+    setTimeout(() => {
+      form.reset();
+    }, 1000); // 1000ms = 1 segundo
+  });
+</script>
+
+</body>
+</html>
