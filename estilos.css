@@ -153,18 +153,6 @@ header p {
   margin-right: 20px;
 }
 
-/* Amazon */
-.boton.amazon {
-  background-color: #67696b;
-  color: white;
-}
-
-.boton.amazon:hover {
-  background-color: #37475a;
-  transform: scale(1.05);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-}
-
 /* Mercado Libre */
 .boton.mercado {
   background-color: #ffe600;
@@ -247,4 +235,5 @@ footer {
   .imagen {
     width: 100%;
   }
+
 }
